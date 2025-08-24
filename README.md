@@ -1,6 +1,6 @@
 NHANES 2017–2018 (SAS Base): Adult Obesity Prevalence
 
-Goal. Estimate the weighted prevalence of adult obesity (BMI ≥ 30) overall and by sex and race/ethnicity using only Base SAS tools (DATA step, PROC COPY/CONTENTS/SORT/FREQ/MEANS, PROC FORMAT).
+Goal. Estimate the weighted prevalence of adult obesity (BMI ≥ 30) overall and by sex and race/ethnicity using Base SAS tools (DATA step, PROC COPY/CONTENTS/SORT/FREQ/MEANS, PROC FORMAT).
 Why this matters. It shows real public-health data wrangling and correct use of NHANES weights—without jumping into SURVEY procedures yet.
 
 Data
@@ -36,6 +36,7 @@ PROC MEANS on 0/1 indicator with WEIGHT WTMEC2YR → prevalence as a mean
 No design-correct SEs/CIs in this v1 (keeps it SAS 1/2-friendly). See Upgrades for SURVEY version.
 
 Repo layout
+
 nhanes-obesity-sas/
 ├─ code/
 │  └─ 01_nhanes1718_obesity_base.sas
