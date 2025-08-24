@@ -1,4 +1,4 @@
-/* === 0) Read local XPORT files (Base SAS) === */
+/* === 0) Read local XPORT files === */
 libname xptdemo xport "C:\CDC\DEMO_J.xpt" access=readonly;
 libname xptbmx  xport "C:\CDC\BMX_J.xpt"  access=readonly;
 
@@ -9,7 +9,7 @@ proc copy in=xptbmx  out=work; run;
 proc contents data=work.demo_j; title "DEMO_J variables"; run;
 proc contents data=work.bmx_j;  title "BMX_J variables";  run;
 
-/* === 1) Prep variables with DATA step & FORMATS (SAS 1/2) === */
+/* === 1) Prep variables with DATA step & FORMATS === */
 proc sort data=DEMO_J; by SEQN; run;
 proc sort data=BMX_J;  by SEQN; run;
 
@@ -76,7 +76,7 @@ proc freq data=nhanes_adults;
   tables age_cat*obese;
 run;
 
-/* === 3) Another SAS-1/2 trick: weighted mean of a 0/1 to get prevalence === */
+/* === 3) Weighted mean of a 0/1 to get prevalence === */
 title "Prevalence via Weighted Mean of 0/1 Indicator";
 proc means data=nhanes_adults mean maxdec=2;
   weight WTMEC2YR;
@@ -97,7 +97,7 @@ proc means data=nhanes_adults mean maxdec=2;
   var obeseN;
 run;
 
-/* === 4) Optional: export simple outputs (Base SAS) === */
+/* === 4) Optional: export simple outputs === */
 /* Capture PROC MEANS output to a dataset with ODS OUTPUT, then export */
 ods output Summary=prev_by_sex;
 proc means data=nhanes_adults mean maxdec=4;
