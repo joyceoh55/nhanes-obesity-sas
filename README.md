@@ -65,14 +65,7 @@ libname xptbmx  xport "C:\CDC\BMX_J.xpt"  access=readonly;
 
 Outputs write to C:\CDC\ (change paths if you like).
 
-Option B — SAS OnDemand for Academics (cloud)
 
-Upload DEMO_J.XPT and BMX_J.XPT to Files (Home).
-
-Update paths, e.g.:
-
-libname xptdemo xport "/home/<yourid>/DEMO_J.xpt" access=readonly;
-libname xptbmx  xport "/home/<yourid>/BMX_J.xpt"  access=readonly;
 
 
 Run the script.
