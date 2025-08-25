@@ -118,4 +118,4 @@ Export publication-style tables via ODS or PROC REPORT.
 
 Reuse
 
-NHANES public data are free to use. Please credit: National Health and Nutrition Examination Survey (NHANES), 2017–2018. National Center for Health Statistics, CDC.
+NHANES public data are free to use. Credit: National Health and Nutrition Examination Survey (NHANES), 2017–2018. National Center for Health Statistics, CDC.
