@@ -100,7 +100,7 @@ Notes on weighting
 
 This analysis uses exam (MEC) weight WTMEC2YR because BMI comes from body-measure exams.
 
-It’s a single 2-year cycle (2017–2018). If you later combine two cycles (e.g., 2015–2018), construct multi-year weights (e.g., divide WTMEC2YR by 2) or use CDC’s provided 4-year weights when applicable.
+It’s a single 2-year cycle (2017–2018).
 
 Limitations
 
