@@ -79,7 +79,7 @@ CSV: prev_by_sex.csv, prev_by_race.csv (weighted prevalence)
 Interpretation template (fill these after running)
 
 
-Overall adult obesity prevalence (weighted): ___ %
+Overall adult obesity prevalence (weighted): 42.67 %
 
 By sex (weighted): Male 48.2 %, Female 51.8 %
 
