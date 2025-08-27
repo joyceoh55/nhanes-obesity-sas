@@ -78,23 +78,24 @@ CSV: prev_by_sex.csv, prev_by_race.csv (weighted prevalence)
 
 Interpretation template (fill these after running)
 
+
 Overall adult obesity prevalence (weighted): ___ %
 
-By sex (weighted): Male ___ %, Female ___ %
+By sex (weighted): Male 48.2 %, Female 51.8 %
 
 By race/ethnicity (weighted):
 
-Mexican American ___ %
+Mexican American 13.2 %
 
-Other Hispanic ___ %
+Other Hispanic 9.3 %
 
-Non-Hispanic White ___ %
+Non-Hispanic White 34.4 %
 
-Non-Hispanic Black ___ %
+Non-Hispanic Black 23.6 %
 
-Non-Hispanic Asian ___ %
+Non-Hispanic Asian 14.5 %
 
-Other/Multiracial ___ %
+Other/Multiracial 5.02 %
 
 Notes on weighting
 
